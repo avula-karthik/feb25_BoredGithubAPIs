@@ -1,7 +1,43 @@
 .App {
   text-align: center;
 }
-
+input{
+  font-size: 20px;
+  width: 50%;
+  border-radius: 1px;
+}
+.btntxt{
+  box-shadow: 4px 4px black ;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.gitprofile:hover{
+  transform: scale(1.02);
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+.gitprofile{
+  border: 2px solid white;
+  width: 47%;
+  float: left;
+  box-shadow: 5px 5px white, 10px 10px grey, 15px 15px black;
+  background-color:  #2D6ADC;
+}
+.activitytext{
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: inline;
+  text-shadow: 5px 5px black;
+}
+i{
+  color: white;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
