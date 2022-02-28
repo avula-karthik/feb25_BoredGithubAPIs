@@ -4,10 +4,11 @@
 input{
   font-size: 20px;
   width: 50%;
-  border-radius: 1px;
+  border-radius: 10px;
 }
 .btntxt{
   box-shadow: 4px 4px black ;
+  border-radius: 20px;
 }
 a{
   text-decoration: none;
@@ -22,8 +23,8 @@ a:hover{
 }
 .gitprofile{
   border: 2px solid white;
-  width: 47%;
-  float: left;
+  width: 96%;
+  margin: auto;
   box-shadow: 5px 5px white, 10px 10px grey, 15px 15px black;
   background-color:  #2D6ADC;
 }
